@@ -1,0 +1,35 @@
+.footer{
+    background: url(../../assets/images/footer-background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .footer-logo-container {
+        height: 100%;
+        width: 70px;
+        padding: 25px;
+      }
+    .copyright {
+        text-align: center;
+    }
+    .locations {
+        text-align: center;
+        .location{
+            padding: 0 10px;
+        }
+    }
+}
+  
+.footer-logo {
+  text-align: center;
+  color: #fff;
+  padding-bottom: 50px;
+
+  img {
+    margin-bottom: 15px;
+  }
+
+  a {
+    color: #fff;
+  }
+}
+  

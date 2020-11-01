@@ -2,7 +2,8 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <!-- <link rel="icon" href="%PUBLIC_URL%/favicon.ico" /> -->
+    <link rel="icon" href="https://thecodewiz.com/wp-content/uploads/2018/09/cropped-Code-Wiz-1-32x32.png" sizes="32x32" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
     <meta
@@ -24,7 +25,10 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>React App</title>
+    <!-- Styles -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>Code Wiz</title>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
@@ -39,5 +43,37 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+    <!-- Footer scripts -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://use.fontawesome.com/12d81cc7b7.js"></script>
+    <script>
+      function get_height(selector){
+          return selector.height();
+      }
+
+      // function update_header_height() {
+      //     let image_height = get_height($('.header-image'));
+      //     let top_text_height = get_height($('.header-text-container'));
+
+      //     console.log("Header Image Height", header_height);
+      //     $('header').height(image_height);
+      //     $('.top-header').height(top_text_height);
+      // }
+      
+      $(document).ready(function(){
+          //update_header_height();
+          let header_height_1 = get_height($('page-header'));
+          let header_height = get_height($('.header-image'));
+          $('.body-wrapper-img').css("top", header_height_1);
+      });
+
+      $(window).resize(function(){
+          //update_header_height();
+          let header_height = get_height($('.header-image'));
+          $('.body-wrapper-img').css("top", header_height);
+      });
+    </script>
   </body>
 </html>
