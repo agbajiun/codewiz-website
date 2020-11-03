@@ -11,47 +11,99 @@ class Menu extends React.Component {
             sections: [{
                 title: 'Home',
                 linkUrl: '/',
-                id: 1
+                id: 1,
+                htmlId: 'homeDropdownMenu',
+                dropdown: [{
+                    title: 'About Us',
+                    dpLinkUrl: '/about-us',
+                    id: 10
+                },
+                {
+                    title: 'Blog',
+                    dpLinkUrl: '/blog',
+                    id: 11
+                },
+                {
+                    title: 'Contact Us',
+                    dpLinkUrl: '/contact-us',
+                    id: 12
+                }
+            ]
             },
             {
                 title: 'Programs',
                 linkUrl: '/programs',
-                id: 2
-            },
-            {
-                title: 'Online Offerings',
-                linkUrl: '/online-offerings',
-                id: 3
+                id: 2,
+                htmlId: '',
+                dropdown: [{
+                    title: 'Overview',
+                    dpLinkUrl: '/programs',
+                    id: 13
+                },
+                {
+                    title: "Girl's Scout",
+                    dpLinkUrl: '/girls-scout',
+                    id: 14
+                },
+                {
+                    title: 'Birthday Parties',
+                    dpLinkUrl: '/birthday-parties',
+                    id: 15
+                }]
             },
             {
                 title: 'Classes',
                 linkUrl: '/classes',
-                id: 4
+                id: 4,
+                htmlId: '',
+                dropdown: []
             },
             {
                 title: 'Camps',
                 linkUrl: '/camps',
-                id: 5
+                id: 5,
+                htmlId: '',
+                dropdown: []
             },
             {
                 title: 'Competitions',
                 linkUrl: '/competitions',
-                id: 6
+                id: 6,
+                htmlId: '',
+                dropdown: [{
+                    title: 'Overview',
+                    dpLinkUrl: '/competitions',
+                    id: 16
+                },
+                {
+                    title: "Technovation",
+                    dpLinkUrl: '/technovation',
+                    id: 17
+                },
+                {
+                    title: 'FLL',
+                    dpLinkUrl: '/fll',
+                    id: 18
+                }]
             },
             {
                 title: 'FAQs',
                 linkUrl: '/faqs',
-                id: 7
+                id: 7,
+                htmlId: '',
+                dropdown: []
             },
             {
                 title: 'Locations',
                 linkUrl: '/locations',
-                id: 8
+                id: 8,
+                dropdown: []
             },
             {
                 title: 'Franchising',
                 linkUrl: '/franchising',
-                id: 9
+                id: 9,
+                dropdown: []
             }]
         }
     }
