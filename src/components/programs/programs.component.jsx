@@ -1,6 +1,7 @@
 import React from 'react';
 
 import './programs.styles.scss';
+import Button from '../../components/button/button.component';
 
 import codingprg from '../../assets/images/program-free-class.png';
 import teambasedprg from '../../assets/images/program-community.png';
@@ -42,8 +43,8 @@ const Programs = () => (
                                     </div>
                                     <div className="col-sm-6">
                                         <h4 className="bungee">CODING, ROBOTICS & 3D CLASSES</h4>
-                                        <p>Lorem</p>
-                                        <button className="btn">CHECK IT OUT</button>
+                                        <p>Loremt</p>
+                                        <Button color="light-blue" link="/birthday-parties" size="small">CHECK IT OUT</Button>
                                     </div>
                                 </div>
                             </div>
@@ -58,7 +59,7 @@ const Programs = () => (
                                 <div className="col-sm-6">
                                     <h4 className="bungee">TEAM-BASED ACTIVITIES</h4>
                                     <p>Lorem</p>
-                                    <button className="btn">CHECK IT OUT</button>
+                                    <Button color="light-blue" link="/competitions" size="small">CHECK IT OUT</Button>
                                 </div>
                             </div>
                         </div>
@@ -72,7 +73,7 @@ const Programs = () => (
                                 <div class="col-sm-6">
                                     <h4 className="bungee">SUMMER AND HOLIDAY CAMPS</h4>
                                     <p>Lorem</p>
-                                    <button className="btn">CHECK IT OUT</button>
+                                    <Button color="light-blue" link="/camps" size="small">CHECK IT OUT</Button>
                                 </div>
                             </div>
                         </div>
@@ -86,7 +87,7 @@ const Programs = () => (
                                 <div className="col-sm-6">
                                     <h4 className="bungee">BIRTHDAY PARTIES</h4>
                                     <p>Lorem</p>
-                                    <button className="btn">CHECK IT OUT</button>
+                                    <Button color="light-blue" link="/birthday-parties" size="small">CHECK IT OUT</Button>
                                 </div>
                             </div>
                         </div>
@@ -100,7 +101,7 @@ const Programs = () => (
                                 <div className="col-sm-6">
                                     <h4 className="bungee">Girl's scout</h4>
                                     <p>Lorem</p>
-                                    <button className="btn">CHECK IT OUT</button>
+                                    <Button color="light-blue" link="/girls-scout" size="small">CHECK IT OUT</Button>
                                 </div>
                             </div>
                         </div>

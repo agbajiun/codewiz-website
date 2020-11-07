@@ -1,0 +1,76 @@
+.btn {
+    a {
+        color: white;
+        font-weight:600;
+    }
+    a:hover {
+        text-decoration: none;
+    }
+}
+
+.small {
+    width: 150px;
+}
+
+.medium {
+    width: 250px;
+}
+
+.large {
+    width: 350px;
+}
+
+button {
+    border-radius: 45px !important;
+    width: auto;
+    height: 50px;
+    padding: 0 35px 0 35px;
+    color: white;
+  }
+  
+  .orange-button {
+    background-image: -moz-linear-gradient( 0deg, rgb(220,43,1) 0%, rgb(255,111,0) 100%);
+    background-image: -webkit-linear-gradient( 0deg, rgb(220,43,1) 0%, rgb(255,111,0) 100%);
+    background-image: -ms-linear-gradient( 0deg, rgb(220,43,1) 0%, rgb(255,111,0) 100%);
+    background: rgb(220,43,1);
+    z-index: 76;
+  }
+  
+  .blue-button {
+    background-image: -moz-linear-gradient( 0deg, rgb(112,44,145) 0%, rgb(0,172,220) 100%);
+    background-image: -webkit-linear-gradient( 0deg, rgb(112,44,145) 0%, rgb(0,172,220) 100%);
+    background-image: -ms-linear-gradient( 0deg, rgb(112,44,145) 0%, rgb(0,172,220) 100%);
+    background: rgb(112,44,145);
+    z-index: 76;
+  }
+  
+  .light-blue-button {
+    background-color: #05ACDC;
+    color: white;
+  }
+
+  .btn-light-blue {
+    background-color: #05ACDC;
+    color: white;
+  }
+  
+  
+  .cw-dark-blue {
+    color: #06324E;
+  }
+  
+  .cw-light-blue {
+    color: #05ACDC;
+  }
+  
+  .cw-orange {
+    color: #F47D20;
+  }
+  
+  .cw-yellow {
+    color: #FEE55B;
+  }
+
+  .cw-grey {
+      color: rgb(49, 49, 49);
+  }

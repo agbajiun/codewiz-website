@@ -25,7 +25,7 @@ class Menu extends React.Component {
                 },
                 {
                     title: 'Contact Us',
-                    dpLinkUrl: '/contact-us',
+                    dpLinkUrl: '/contact',
                     id: 12
                 }
             ]

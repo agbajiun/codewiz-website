@@ -43,6 +43,12 @@
   .homepage-content {
     background: url(../../assets/images/Group-11.png);
     background-repeat: no-repeat;
+
+    img {
+      width: 100%;
+      position: absolute;
+      top: 0;
+    }
   }
   
 .project-driven {

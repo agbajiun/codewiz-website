@@ -1,0 +1,39 @@
+/* COLOR VARIABLES
+============================================= */
+$orange: #ffa600;
+$blue: #82d2e5;
+$green:#c1d72e;
+$grey: #f0f0f0;
+$white: #ffffff;
+// $purple: #;
+
+
+.contact-info-contact-page{
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.contact-info-contact-page {
+  .row {
+    background: linear-gradient(to top, #f0f0f0, #f0f0f0 0%, #fff 100%);
+    padding: 100px 50px;
+    border-radius: 15px;
+  }
+  
+}
+
+.contact-info-contact-page .col {
+  text-align: center;
+  background-color: #fff;
+  border-radius: 10px;
+  margin: 0 10px;
+}
+
+.contact-circle {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: rgba(244, 125, 32, 0.4);
+  margin: 25px auto;
+  padding: 30px 0;
+}

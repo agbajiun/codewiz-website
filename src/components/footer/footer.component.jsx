@@ -34,9 +34,9 @@ const Footer = () => (
                 <h6>COPYRIGHT &copy; CODE WIZ 2019-20</h6>
                 <div className="location-links">
                     <Link className="location" to="/reading">Reading, MA</Link> | 
-                    <Link className="location" to="/arlington">Arlington, MA</Link> | 
-                    <Link className="location" to="/westford">Westford, MA</Link> | 
-                    <Link className="location" to="/jerseycity">Jersey City, NJ</Link>
+                    <Link className="location" to="/arlington"> Arlington, MA</Link> | 
+                    <Link className="location" to="/westford"> Westford, MA</Link> | 
+                    <Link className="location" to="/jerseycity"> Jersey City, NJ</Link>
                 </div>
             </div>
         </div>

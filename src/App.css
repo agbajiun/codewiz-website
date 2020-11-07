@@ -73,56 +73,10 @@ h5.bungee {
 /* .fa {
     color: #F47D20;
 } */
-
-button {
-  border-radius: 45px !important;
-  width: auto;
-  height: 50px;
-  padding: 0 35px 0 35px;
-  color: white;
-}
-
-.orange-button {
-  background-image: -moz-linear-gradient( 0deg, rgb(220,43,1) 0%, rgb(255,111,0) 100%);
-  background-image: -webkit-linear-gradient( 0deg, rgb(220,43,1) 0%, rgb(255,111,0) 100%);
-  background-image: -ms-linear-gradient( 0deg, rgb(220,43,1) 0%, rgb(255,111,0) 100%);
-  background: rgb(220,43,1);
-  z-index: 76;
-}
-
-.blue-button {
-  background-image: -moz-linear-gradient( 0deg, rgb(112,44,145) 0%, rgb(0,172,220) 100%);
-  background-image: -webkit-linear-gradient( 0deg, rgb(112,44,145) 0%, rgb(0,172,220) 100%);
-  background-image: -ms-linear-gradient( 0deg, rgb(112,44,145) 0%, rgb(0,172,220) 100%);
-  background: rgb(112,44,145);
-  z-index: 76;
-}
-
 .center {
   text-align: center;
 }
 
-.btn-light-blue {
-  background-color: #05ACDC;
-  color: white;
-}
-
-
-.cw-dark-blue {
-  color: #06324E;
-}
-
-.cw-light-blue {
-  color: #05ACDC;
-}
-
-.cw-orange {
-  color: #F47D20;
-}
-
-.cw-yellow {
-  color: #FEE55B;
-}
 
 .visible-sm {
   display: none;
@@ -141,4 +95,8 @@ button {
 }
 .empty-space-half {
   height: 10vh;
+}
+
+.navbar-toggler {
+  background-color: #06324E;
 }
