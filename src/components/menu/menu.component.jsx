@@ -14,69 +14,69 @@ class Menu extends React.Component {
                 id: 1,
                 htmlId: 'homeDropdownMenu',
                 dropdown: [{
-                    title: 'About Us',
+                    title: 'ABOUT US',
                     dpLinkUrl: '/about-us',
                     id: 10
                 },
                 {
-                    title: 'Blog',
+                    title: 'BLOG',
                     dpLinkUrl: '/blog',
                     id: 11
                 },
                 {
-                    title: 'Contact Us',
+                    title: 'CONTACT US',
                     dpLinkUrl: '/contact',
                     id: 12
                 }
             ]
             },
             {
-                title: 'Programs',
+                title: 'PROGRAMS',
                 linkUrl: '/programs',
                 id: 2,
                 htmlId: '',
                 dropdown: [{
-                    title: 'Overview',
+                    title: 'OVERVIEW',
                     dpLinkUrl: '/programs',
                     id: 13
                 },
                 {
-                    title: "Girl's Scout",
+                    title: "GIRL'S SCOUT",
                     dpLinkUrl: '/girls-scout',
                     id: 14
                 },
                 {
-                    title: 'Birthday Parties',
+                    title: 'BIRTHDAY PARTIES',
                     dpLinkUrl: '/birthday-parties',
                     id: 15
                 }]
             },
             {
-                title: 'Classes',
+                title: 'CLASSES',
                 linkUrl: '/classes',
                 id: 4,
                 htmlId: '',
                 dropdown: []
             },
             {
-                title: 'Camps',
+                title: 'CAMPS',
                 linkUrl: '/camps',
                 id: 5,
                 htmlId: '',
                 dropdown: []
             },
             {
-                title: 'Competitions',
+                title: 'COMPETITIONS',
                 linkUrl: '/competitions',
                 id: 6,
                 htmlId: '',
                 dropdown: [{
-                    title: 'Overview',
+                    title: 'OVERVIEW',
                     dpLinkUrl: '/competitions',
                     id: 16
                 },
                 {
-                    title: "Technovation",
+                    title: "TECHNOVATION",
                     dpLinkUrl: '/technovation',
                     id: 17
                 },
@@ -94,13 +94,13 @@ class Menu extends React.Component {
                 dropdown: []
             },
             {
-                title: 'Locations',
+                title: 'LOCATIONS',
                 linkUrl: '/locations',
                 id: 8,
                 dropdown: []
             },
             {
-                title: 'Franchising',
+                title: 'FRANCHISING',
                 linkUrl: '/franchising',
                 id: 9,
                 dropdown: []

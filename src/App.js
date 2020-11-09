@@ -9,6 +9,7 @@ import AboutPage from './pages/about-us/about-us.component';
 import ContactPage from './pages/contact/contact.component';
 import ProgramsPage from './pages/programs/programs.component';
 import GirlsScoutPage from './pages/girls-scout/girls-scout.component';
+import BirthdayPartiesPage from './pages/birthday-parties/birthday-parties.component';
 // import Classes from './pages/classes/classes.component';
 // import Programs from './pages/programs/programs.component';
 //import Camps from './camps.component';
@@ -29,6 +30,7 @@ function App() {
         <Route path='/contact' component={ContactPage} />
         <Route path='/programs' component={ProgramsPage} />
         <Route path='/girls-scout' component={GirlsScoutPage} />
+        <Route path='/birthday-parties' component={BirthdayPartiesPage} />
       </Switch>
       <Footer/>
     </div>
