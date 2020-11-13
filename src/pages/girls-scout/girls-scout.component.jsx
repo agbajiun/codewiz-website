@@ -21,8 +21,8 @@ const GirlsScoutPage = () => (
                         <Button color="orange" link="https://codewiz.simplybook.me/v2/#book" size="medium">FIND A LOCATION</Button>
                     </div>
                 </div>
-                <div className="col-sm-12 col-md-6 mobile-img visible-sm">
-                    <img src={AboutPageImg} />
+                <div className="col-md-12 col-lg-6 mobile-img d-md-block d-lg-none order-1">
+                    <img src={AboutPageImg} alt="About"/>
                 </div>
             </div>
             {/* <img src={HomePageImg} className="header-image hidden-sm"/> */}
@@ -44,12 +44,12 @@ const GirlsScoutPage = () => (
                         <p>Girls initiate their computer science journey by coding mini animations with a simple drag-and-drop platform. For gaining this foundational experience, they earn a “Think Like a Programmer” badge.</p>
                     </div>
                     <div className="image col-md-6 order-md-2">
-                        <img src={GirlsScoutDaisies} />
+                        <img src={GirlsScoutDaisies} alt="Daisies"/>
                     </div>
                 </div>
                 <div className="row">
                     <div className="image col-md-6 order-md-1">
-                        <img src={GirlsScoutBrownies} />
+                        <img src={GirlsScoutBrownies} alt="Girl's Scout Brownies"/>
                     </div> 
                     <div className="text col-md-6 order-md-2">
                         <h3 className="bungee">BROWNIES</h3>
@@ -72,12 +72,12 @@ const GirlsScoutPage = () => (
                     <p>Girls get their hands on the Python coding platform and use its easy, drag-and-drop interface to code animations, greeting cards and more. For their efforts, Juniors earn a “Think Like a Programmer” badge towards completing their Computer Science journey.</p>
                 </div>
                 <div className="image col-md-6 order-md-2">
-                    <img src={GirlsScoutJunior} />
+                    <img src={GirlsScoutJunior} alt="Girl's Scout Junior"/>
                 </div>
             </div>
             <div className="row"> 
                 <div className="image col-md-6 order-md-1 cw-dark-blue">
-                    <img src={GirlsScoutCadets} />
+                    <img src={GirlsScoutCadets} alt="Girl's Scout Cadets"/>
                 </div>
                 <div className="text col-md-6 order-md-2 cw-dark-blue">
                     <h3 className="bungee">CADET</h3>

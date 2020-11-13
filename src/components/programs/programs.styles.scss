@@ -5,7 +5,7 @@
     height: 600px;
     color: #fff;
 
-    .col-sm-6 {
+    .col-lg-6 {
         padding-left: 0px !important;
     }
 
@@ -94,3 +94,16 @@
     color: white;
   }
   
+  @media (max-width: 991px) {
+    .orange-bkg {
+      background-color: #F47D20;
+      height: 450px;
+    }
+
+    .detail-box {
+      .col-lg-6 {
+        padding: 0px;
+      }
+    }
+
+  }

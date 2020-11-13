@@ -1,0 +1,57 @@
+.competitions-wrapper {
+    background: url(../../assets/images/competition-mid-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;    
+}
+
+.locations-wrapper {
+  background: url(../../assets/images/mid-locations-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 650px;
+  text-align: center;
+}
+
+.find-a-location-container {
+  margin-top: 10% !important;
+}
+
+.map {
+  height: 500px;
+  width: 100%;
+  margin: 5rem 0;
+}
+
+.location-input {
+  width: 50%;
+  height: 40px;
+  border: 1px solid #cccccc;
+  border-radius: 10px;
+  background: none;
+  color: #fff;
+}
+
+.location-links-container {
+  margin-top: 20px;
+}
+
+.location-links {
+  justify-content: center;
+
+  a {
+    text-align: center;
+  }
+}
+
+.address-boxes {
+  justify-content: center;
+
+  .box {
+    height: 250px;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+}
+

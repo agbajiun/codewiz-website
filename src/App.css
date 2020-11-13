@@ -78,13 +78,13 @@ h5.bungee {
 }
 
 
-.visible-sm {
+/* .visible-sm {
   display: none;
 }
 
 .hidden-sm {
   display: block;
-}
+} */
 
 .empty-space-large {
   height: 40vh;
@@ -95,8 +95,4 @@ h5.bungee {
 }
 .empty-space-half {
   height: 10vh;
-}
-
-.navbar-toggler {
-  background-color: #06324E;
 }

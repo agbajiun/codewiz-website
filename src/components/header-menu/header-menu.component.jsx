@@ -10,7 +10,7 @@ import './header-menu.styles.scss';
 
 const HeaderMenu = () => (
     <div className="content">
-        <nav className="navbar navbar-expand-lg navbar-dark primary-color">
+        <nav className="navbar navbar-expand-xl navbar-dark primary-color">
             <div className="logo navbar-brand">
                 <div className="logo-link-div">
                     <Link className="logo-link" to="/">
@@ -19,7 +19,7 @@ const HeaderMenu = () => (
                 </div>
             </div>
 
-            <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#codeWizNav"
+            <button className="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#codeWizNav"
             aria-controls="codeWizNav" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
             </button>

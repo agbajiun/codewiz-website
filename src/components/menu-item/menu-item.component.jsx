@@ -5,7 +5,7 @@ import MenuItemDropdown from './menu-dropdown.component';
 import './menu-item.styles.scss';
 
 const MenuItem = ({title, history, linkUrl, match, dropdown, htmlId}) => {
-    if (dropdown.length == 0){
+    if (dropdown.length === 0){
         return (
             <li className="nav-item"><a className="nav-link" href={`${linkUrl}`}>{title.toUpperCase()}</a></li>
         );

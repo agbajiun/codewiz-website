@@ -3,8 +3,6 @@ import React from 'react';
 //import Directory from '../../components/directory/directory.component';
 import AboutPageImg from '../../assets/images/Group-4.png';
 import ProgramsPower from '../../assets/images/program-wrapper-img.png';
-import AboutSpark from '../../assets/images/image-2.png';
-import AboutGivingBack from '../../assets/images/giving-back-image.png';
 
 import './programs.styles.scss';
 import Button from '../../components/button/button.component';
@@ -17,12 +15,12 @@ const ProgramsPage = () => (
                 <div className="top-header col-sm-12 col-md-6">
                     <div className="text">
                         <h1 className="header-title cw-dark-blue bungee">PROGRAMS</h1> 
-                        <h2 className="header-text cw-dark-blue"></h2>
+                        <h2 className="header-text cw-dark-blue">&nbsp;</h2>
                         <Button color="orange" link="https://codewiz.simplybook.me/v2/#book" size="medium">TRY A FREE CLASS</Button>
                     </div>
                 </div>
-                <div className="col-sm-12 col-md-6 mobile-img visible-sm">
-                    <img src={AboutPageImg} />
+                <div className="col-md-12 col-lg-6 mobile-img d-md-block d-lg-none order-1">
+                    <img src={AboutPageImg} alt="About"/>
                 </div>
             </div>
             {/* <img src={HomePageImg} className="header-image hidden-sm"/> */}
@@ -31,7 +29,7 @@ const ProgramsPage = () => (
             <div className="container programs-container">
                 <div className="row">
                     <div className="image col-md-6 order-md-1">
-                        <img src={ProgramsPower} />
+                        <img src={ProgramsPower} alt="Program Power"/>
                     </div> 
                     <div className="text abs right col-md-6 order-md-2">
                         <h3 className="bungee">What powers us</h3>

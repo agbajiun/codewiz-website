@@ -2,9 +2,6 @@ import React from 'react';
 
 //import Directory from '../../components/directory/directory.component';
 import AboutPageImg from '../../assets/images/Group-4.png';
-import AboutPower from '../../assets/images/image-1.png';
-import AboutSpark from '../../assets/images/image-2.png';
-import AboutGivingBack from '../../assets/images/giving-back-image.png';
 
 import './contact.styles.scss';
 import Button from '../../components/button/button.component';
@@ -23,8 +20,8 @@ const ContactPage = () => (
                         <Button color="orange" link="https://codewiz.simplybook.me/v2/#book" size="medium">TRY A FREE CLASS</Button>
                     </div>
                 </div>
-                <div className="col-sm-12 col-md-6 mobile-img visible-sm">
-                    <img src={AboutPageImg} />
+                <div className="col-md-12 col-lg-6 mobile-img d-md-block d-lg-none order-1">
+                    <img src={AboutPageImg} alt="About"/>
                 </div>
             </div>
             {/* <img src={HomePageImg} className="header-image hidden-sm"/> */}

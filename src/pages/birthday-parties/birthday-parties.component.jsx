@@ -22,8 +22,8 @@ const BirthdayPartiesPage = () => (
                         <Button color="orange" link="https://codewiz.simplybook.me/v2/#book" size="medium">FIND A LOCATION</Button>
                     </div>
                 </div>
-                <div className="col-sm-12 col-md-6 mobile-img visible-sm">
-                    <img src={AboutPageImg} />
+                <div className="col-md-12 col-lg-6 mobile-img d-md-block d-lg-none order-1">
+                    <img src={AboutPageImg} alt="About"/>
                 </div>
             </div>
             {/* <img src={HomePageImg} className="header-image hidden-sm"/> */}
@@ -38,7 +38,7 @@ const BirthdayPartiesPage = () => (
                 </div>
                 <div className="row">
                     <div className="image col-md-6 order-md-1">
-                        <img src={BirthdayOzo} />
+                        <img src={BirthdayOzo} alt="Ozo Birthday"/>
                     </div> 
                     <div className="text col-md-6 order-md-2 cw-dark-blue">
                         <h3 className="bungee">ozobots bash</h3>
@@ -62,13 +62,13 @@ const BirthdayPartiesPage = () => (
                         </ul>
                     </div>
                     <div className="image col-md-6 order-md-2 cw-dark-blue">
-                        <img src={BirthdayMindstorms} />
+                        <img src={BirthdayMindstorms} alt="Mindstorms Birthday"/>
                     </div>
                 </div>
                 <div className="container empty-space-half bw-4"></div>
                 <div className="row">
                     <div className="image col-md-6 order-md-1">
-                        <img src={BirthdayRoblox} />
+                        <img src={BirthdayRoblox} alt="Roblox Birthday"/>
                     </div> 
                     <div className="text col-md-6 order-md-2 cw-dark-blue">
                         <h3 className="bungee">Rock with Robolox</h3>
@@ -94,13 +94,13 @@ const BirthdayPartiesPage = () => (
                         <p>Party goers should have basic familiarity with playing Minecraft for a fun experience!</p>
                     </div>
                     <div className="image col-md-6 order-md-2 cw-dark-blue">
-                        <img src={BirthdayMinecraft} />
+                        <img src={BirthdayMinecraft} alt="Minecraft Birthday"/>
                     </div>
                 </div>
                 <div className="container empty-space-half bw-4"></div>
                 <div className="row">
                     <div className="image col-md-6 order-md-1">
-                        <img src={BirthdayTynker} />
+                        <img src={BirthdayTynker} alt="Tynker Birthday"/>
                     </div> 
                     <div className="text col-md-6 order-md-2 cw-dark-blue">
                         <h3 className="bungee">Tynker Time</h3>

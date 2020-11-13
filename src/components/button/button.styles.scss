@@ -29,18 +29,12 @@ button {
   }
   
   .orange-button {
-    background-image: -moz-linear-gradient( 0deg, rgb(220,43,1) 0%, rgb(255,111,0) 100%);
-    background-image: -webkit-linear-gradient( 0deg, rgb(220,43,1) 0%, rgb(255,111,0) 100%);
-    background-image: -ms-linear-gradient( 0deg, rgb(220,43,1) 0%, rgb(255,111,0) 100%);
-    background: rgb(220,43,1);
+    background: linear-gradient(to right, rgb(220,43,1), rgb(220,43,1) 0%, rgb(255,111,0) 100%);
     z-index: 76;
   }
   
   .blue-button {
-    background-image: -moz-linear-gradient( 0deg, rgb(112,44,145) 0%, rgb(0,172,220) 100%);
-    background-image: -webkit-linear-gradient( 0deg, rgb(112,44,145) 0%, rgb(0,172,220) 100%);
-    background-image: -ms-linear-gradient( 0deg, rgb(112,44,145) 0%, rgb(0,172,220) 100%);
-    background: rgb(112,44,145);
+    background: linear-gradient(to right, rgb(112,44,145), rgb(112,44,145) 0%, rgb(0,172,220) 100%);
     z-index: 76;
   }
   
