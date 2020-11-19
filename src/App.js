@@ -1,10 +1,11 @@
-import React, {Component} from 'react';
+import React from 'react';
 import {Switch, Route} from 'react-router-dom';
 
 import './App.css';
 
 import HomePage from './pages/homepage/homepage.component';
 import WestfordPage from './pages/westford/westford.component';
+import JerseyPage from './pages/jerseycity/jerseycity.component';
 import AboutPage from './pages/about-us/about-us.component';
 import ContactPage from './pages/contact/contact.component';
 import ProgramsPage from './pages/programs/programs.component';
@@ -19,7 +20,7 @@ import FAQPage from './pages/faqs/faqs';
 import LocationsPage from './pages/locations/locations';
 import Header from './components/header/header.component';
 import Footer from './components/footer/footer.component';
-import {appendScript} from './components/LoadJS';
+// import {appendScript} from './components/LoadJS';
 
 // class App extends Component {
 //   componentDidMount() {
@@ -80,6 +81,8 @@ function App() {
         <Route path='/fll' component={FLLPage} />
         <Route path='/faqs' component={FAQPage} />
         <Route path='/locations' component={LocationsPage} />
+        <Route path='/westford-ma' component={WestfordPage} />
+        <Route path='/jerseycity' component={JerseyPage} />
       </Switch>
       <Footer/>
     </div>

@@ -2,12 +2,9 @@ import React from 'react';
 
 //import Directory from '../../components/directory/directory.component';
 import AboutPageImg from '../../assets/images/Group-4.png';
-import CompetitionTech from '../../assets/images/competition-technovation.png';
-import CompetitionFLL from '../../assets/images/competition-first-lego.png';
 
 import './faqs.styles.scss';
 import Button from '../../components/button/button.component';
-import Programs from '../../components/programs/programs.component';
 
 const FAQPage = () => (
     <div className="competitions-content">

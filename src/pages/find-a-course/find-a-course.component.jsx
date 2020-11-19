@@ -8,7 +8,9 @@ import FindACourseRobotics from '../../assets/images/robotics-course.png';
 import FindACourseCompetition from '../../assets/images/competition-course.png';
 
 import './find-a-course.styles.scss';
+// import '../../assets/js/courses';
 import Button from '../../components/button/button.component';
+import Courses from '../../components/courses/courses.component';
 
 const FindACoursePage = () => (
     <div className="find-a-course-content">
@@ -37,23 +39,7 @@ const FindACoursePage = () => (
                 </div>
                 <div className="center">
                     <h4 className="bungee">student's age</h4>
-                    <div className="row select-student-age">
-                        <select id="select-age" className="form-control col-md-10">
-                            <option>Choose...</option>
-                            <option value="7">7</option>
-                            <option value="8">8</option>
-                            <option value="9">9</option>
-                            <option value="10">10</option>
-                            <option value="11">11</option>
-                            <option value="12">12</option>
-                            <option value="13">13</option>
-                            <option value="14">14</option>
-                            <option value="15">15</option>
-                            <option value="16">16</option>
-                            <option value="17">17</option>
-                        </select>
-                        <button className="btn orange-button col-md-2" id="start">START</button>
-                    </div>
+                    <Courses />
                 </div>
                 <div className="row"> 
                     <div id="coding" className="col hidden">
