@@ -65,7 +65,7 @@ import Footer from './components/footer/footer.component';
 function App() {
   return (
     <div>
-      <Header />
+      {/* <Header /> */}
       <Switch>
         <Route exact path='/' component={HomePage} />
         <Route path='/westford' component={WestfordPage} />

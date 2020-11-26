@@ -7,11 +7,12 @@ import HeaderBkg from '../header-bkg-images/header-bkg-images.component';
 
 import './header.styles.scss';
 
-const Header = () => (
+const Header = (props) => (
     <header className="page-header">
         <HeaderDetails />
-        <HeaderBkg />
+        <HeaderBkg image={props.image}/>
     </header>
 );
 
 export default Header;
+

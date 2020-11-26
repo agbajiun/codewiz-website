@@ -1,5 +1,5 @@
 import React, {Component, Fragment} from 'react';
-// import firebase from '../Firebase/firebase.js';
+import firebase from '../Firebase/firebase.js';
 
 import AboutPageImg from '../../assets/images/Group-4.png';
 import AboutSpark from '../../assets/images/image-2.png';
@@ -44,8 +44,22 @@ class Franchisee extends React.Component {
             ],
             map: props.name + "-map"
         }
+    
     }
 
+    componentDidMount(){
+        let that = this;
+        firebase.database().ref(that.state.name).on("value", snapshot => {
+            let studentlist = [];
+            
+                snapshot.forEach(snap => {
+            //     // snap.val() is the dictionary with all your keys/values from the 'students-list' path
+                    studentlist.push(snap.val());
+                });
+                console.log(studentlist);
+            });
+            // this.setState({ studentslist: studentlist }); 
+    }
 
     render(){
         return (

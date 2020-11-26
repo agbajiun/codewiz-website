@@ -1,7 +1,7 @@
 import React from 'react';
 // import Header from './components/header/header.component';
 import Franchisee from '../../components/franchisee/franchisee.component';
-
+import Header from '../../components/header/header.component';
 import './westford.styles.scss';
 
 class WestfordPage extends React.Component {
@@ -25,8 +25,10 @@ class WestfordPage extends React.Component {
 
     render() {
         return (
-            <Franchisee name="westford"/>
-    
+            <div>
+                <Header />
+                <Franchisee name="westford"/>
+            </div>
         );
     }
 }
